@@ -1,6 +1,6 @@
 {
   "name": "isdefined",
-  "version": "0.1.0",
+  "version": "0.0.4",
   "description": "Checks a given object property is defined",
   "main": "index.js",
   "scripts": {

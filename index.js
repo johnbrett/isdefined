@@ -1,4 +1,4 @@
-var defined;
+var defined = {};
 
 /**
  * Return whether variable is defined
