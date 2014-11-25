@@ -7,6 +7,15 @@ var defined = {};
  */
 defined.is_defined = function (v) {
     return typeof v !== 'undefined';
+};
+
+/**
+ * Return whether variable is defined and not null
+ * @param v
+ * @returns {boolean}
+ */
+defined.has_value = function(v) {
+    return v !== null && typeof v !== null;
 }
 
 /**
