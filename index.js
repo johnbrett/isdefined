@@ -15,7 +15,7 @@ defined.is_defined = function (v) {
  * @returns {boolean}
  */
 defined.has_value = function(v) {
-    return v !== null && typeof v !== null;
+    return v !== null && typeof v !== 'undefined';
 }
 
 /**
