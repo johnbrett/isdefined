@@ -46,4 +46,13 @@ defined.boolean_to_binary = function(v) {
     }
 };
 
+/**
+ * Returns whether variable is 'valid'; is is defined and not an error.
+ * @param v
+ * @returns {boolean}
+ */
+defined.is_valid = function(v) {
+    return defined.is_defined(v) && !(v instanceof Error);
+}
+
 module.exports = defined;

@@ -1,6 +1,6 @@
 {
   "name": "isdefined",
-  "version": "0.1.1",
+  "version": "1.0.1",
   "description": "Utilities for working with undefined properties",
   "main": "index.js",
   "scripts": {
